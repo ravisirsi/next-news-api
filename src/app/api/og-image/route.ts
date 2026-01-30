@@ -73,10 +73,3 @@ export async function GET(request: NextRequest) {
     );
   }
 }
-```
-
----
-
-## Final path should be:
-```
-src/app/api/og-image/route.ts
