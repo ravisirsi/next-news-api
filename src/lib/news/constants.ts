@@ -1,5 +1,5 @@
 export const newsSources: Source[] = [
-  // -------- International Feeds --------
+  // -------- International Feeds (2) --------
   {
     code: "INTER-YN",
     name: "Yahoo News",
@@ -10,21 +10,11 @@ export const newsSources: Source[] = [
     name: "Life Hacker",
     url: "https://lifehacker.com/rss",
   },
-  // -------- United States Feeds --------
+  // -------- United States Feeds (4) --------
   {
-  code: "US-WP",
-  name: "Washington Post",
-  url: "https://feeds.washingtonpost.com/rss/world",
-  },
-  {
-    code: "US-NYT",
-    name: "New York Times",
-    url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
-  },
-  {
-    code: "US-CNN",
-    name: "CNN News",
-    url: "http://rss.cnn.com/rss/cnn_topstories.rss",
+    code: "US-WP",
+    name: "Washington Post",
+    url: "https://feeds.washingtonpost.com/rss/world",
   },
   {
     code: "US-HP",
@@ -37,21 +27,11 @@ export const newsSources: Source[] = [
     url: "https://moxie.foxnews.com/google-publisher/latest.xml",
   },
   {
-    code: "US-R",
-    name: "Reuters",
-    url: "https://cdn.feedcontrol.net/8/1114-wioSIX3uu8MEj.xml",
-  },
-  {
-    code: "US-P",
-    name: "Politico",
-    url: "http://www.politico.com/rss/politicopicks.xml",
-  },
-  {
     code: "US-LAT",
     name: "Los Angeles Times",
     url: "https://www.latimes.com/local/rss2.0.xml",
   },
-  // -------- Australia Feeds --------
+  // -------- Australia Feeds (11) --------
   {
     code: "AU-SMH",
     name: "Sydney Morning Herald - Latest News",
@@ -107,16 +87,11 @@ export const newsSources: Source[] = [
     name: "Michael West",
     url: "https://www.michaelwest.com.au/feed/",
   },
-  // -------- Canada Feeds --------
+  // -------- Canada Feeds (8) --------
   {
-    code: "CA-CBCN",
-    name: "CBC News",
-    url: "https://www.cbc.ca/cmlink/rss-topstories",
-  },
-  {
-  code: "CA-GN",
-  name: "Global News",
-  url: "https://globalnews.ca/feed/",
+    code: "CA-GN",
+    name: "Global News",
+    url: "https://globalnews.ca/feed/",
   },
   {
     code: "CA-CTVN",
@@ -153,11 +128,11 @@ export const newsSources: Source[] = [
     name: "Toronto Sun",
     url: "https://torontosun.com/category/news/feed",
   },
-  // -------- Germany Feeds --------
+  // -------- Germany Feeds (3) --------
   {
     code: "DE-ZO",
     name: "ZEIT ONLINE",
-    url: "https://torontosun.com/category/news/feed",
+    url: "https://newsfeed.zeit.de/index",
   },
   {
     code: "DE-FO",
