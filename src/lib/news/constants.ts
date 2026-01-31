@@ -12,6 +12,11 @@ export const newsSources: Source[] = [
   },
   // -------- United States Feeds --------
   {
+  code: "US-WP",
+  name: "Washington Post",
+  url: "https://feeds.washingtonpost.com/rss/world",
+  },
+  {
     code: "US-NYT",
     name: "New York Times",
     url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
@@ -107,6 +112,11 @@ export const newsSources: Source[] = [
     code: "CA-CBCN",
     name: "CBC News",
     url: "https://www.cbc.ca/cmlink/rss-topstories",
+  },
+  {
+  code: "CA-GN",
+  name: "Global News",
+  url: "https://globalnews.ca/feed/",
   },
   {
     code: "CA-CTVN",
